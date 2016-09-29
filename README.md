@@ -23,4 +23,8 @@ Alternatively set up a "release" package that contains a file like this.
 TO DO
 =====
 
- - Enable GPG signed repositories
+ - Enable GPG signed repositories: it may be as simple as running
+
+    gpg --detach-sign --armor repodata/repomd.xml
+
+   As part of the build process. Provided that the running environment has the signing GPG keys.
