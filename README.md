@@ -1,4 +1,4 @@
-simplerepo
+Simplerepo
 ==========
 
 We need Docker or 'createrepo' binary.
@@ -25,6 +25,8 @@ TO DO
 
  - Enable GPG signed repositories: it may be as simple as running
 
-    gpg --detach-sign --armor repodata/repomd.xml
+   ```
+   gpg --detach-sign --armor repodata/repomd.xml
+   ```
 
    As part of the build process. Provided that the running environment has the signing GPG keys.
