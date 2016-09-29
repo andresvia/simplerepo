@@ -1,5 +1,7 @@
-Simplerepo
+simplerepo
 ==========
+
+Make a RPM repo out of a S3 bucket, good for public repositories.
 
 We need Docker or 'createrepo' binary.
 
@@ -18,7 +20,7 @@ On the end users OS create the simplerepo .repo file, like this:
 
 The bucket needs web access enabled.
 
-Alternatively set up a "release" package that contains a file like this.
+Alternatively set up a "release" package that contains a file like the above.
 
 TO DO
 =====
